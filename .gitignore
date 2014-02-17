@@ -1,0 +1,54 @@
+# Some ideas taken from https://gist.github.com/adamgit/3786883
+
+# OS X Finder
+.DS_Store
+*.swp
+*.lock
+profile
+
+# Xcode per-user config
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*. xcuserstate
+xcuserdata/
+
+# Whitelist some per-user settings (the default ones). Some projects need to use these
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# Xcode 4 - Deprecated classes
+*.moved-aside
+
+# Xcode 5 -  Source Control files
+*.xccheckout
+
+# Build products
+DerivedData/
+build/
+*.o
+*.LinkFileList
+*.hmap
+
+# Automatic backup files
+*~.nib/
+*.swp
+*~
+*.dat
+*.dep
+
+# Cocoapods
+# Pods
+!Podfile.lock
+
+# Bundler
+!Gemfile.lock
+
+# AppCode specific files
+.idea/
+*.iml
